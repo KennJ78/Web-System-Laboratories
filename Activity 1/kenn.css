@@ -1,0 +1,19 @@
+#Places{
+    padding-left: 150px;
+}
+.col-lg-6{
+    align-items: center;
+
+}
+.lead{
+    text-align: justify;
+}
+h1,h2{
+    color: rgba(0,140,225);
+}
+.navbar-brand {
+    color: aliceblue;
+}
+.nav-link{
+    color: aliceblue;
+}
