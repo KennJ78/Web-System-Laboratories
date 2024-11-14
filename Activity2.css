@@ -1,113 +1,109 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(49, 46, 46);
-    color: white;
-    background-image: url('Bg.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
+  font-family: Arial, sans-serif;
+  background-color: rgb(49, 46, 46);
+  color: white;
+  background-image: url("Bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .playlist {
-    width: 90%;
-    background-color: #000000;
-    padding: 25px; 
-    padding-top: 10px;
-    border-radius: 10px; 
-    border: 1px solid #ccc;
-    margin-left: 150px;
-    margin-top: 50px;
-
+  width: 90%;
+  background-color: #000000;
+  padding: 25px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
 .add-song {
-    width: 70%;
-    background-color: #000000;
-    padding: 20px; 
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    margin: auto;
-    margin-right: 50px;
-    margin-top: 50px;
+  width: 70%;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .search-bar,
 #song-title,
 #artist-name {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #444;
-    color: white;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
 }
 
-
 .song {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding-bottom: 20px;
 }
 
 .song-title {
-    font-weight: bold;
-    margin: 0; 
+  font-weight: bold;
+  margin: 0;
 }
 
 .artist-name {
-    display: block; 
-    font-size: 0.9em; 
-    color: #ab9898; 
-    margin: 0; 
+  display: block;
+  font-size: 0.9em;
+  color: #ab9898;
+  margin: 0;
 }
 
 button {
-    background-color: #e1120b;
-    color: white;
-    border: none;
-    padding: 3px 10px;
-    border-radius: 5px;
+  background-color: #e1120b;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: #ff0202;
+  background-color: #ff0202;
 }
 
 #add-button:hover {
-    background-color: rgb(5, 5, 199); 
+  background-color: rgb(5, 5, 199);
 }
 
 #add-button {
-    background-color: rgb(9, 85, 200); 
-    color: white; 
-    border: none; 
-    padding: 8px 15px; 
-    border-radius: 10px; 
-    cursor: pointer; 
+  background-color: rgb(9, 85, 200);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
 }
-
 
 .add-song {
-    display: flex; 
-    flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 }
 
 #add-button {
-    align-self: center; 
-    margin-top: 10px;
+  align-self: center;
+  margin-top: 10px;
 }
-
